@@ -1,9 +1,7 @@
 import KeyPress from '{{PREFIX}}lib/js/keypress.js';
-import Reveal from '{{PREFIX}}lib/js/reveal.js';
 
 const jUtils = {
-    KeyPress: KeyPress,
-    Reveal: Reveal
+    KeyPress: KeyPress
 };
 
 export default jUtils;
