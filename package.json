@@ -1,11 +1,11 @@
 {
   "name": "jizy-utils",
-  "version": "2.0.3",
-  "browser": "dist/jizy-utils.min.js",
+  "version": "2.0.4",
+  "browser": "dist/js/jizy-utils.min.js",
   "main": "lib/index.js",
   "type": "module",
   "files": [
-    "dist/jizy-utils.min.js",
+    "dist/js/jizy-utils.min.js",
     "lib/js/keypress.js",
     "lib/js/reveal.js",
     "lib/index.js"
