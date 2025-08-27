@@ -1,7 +1,13 @@
+import Types from '{{PREFIX}}lib/js/types.js';
 import KeyPress from '{{PREFIX}}lib/js/keypress.js';
+import Intervals from '{{PREFIX}}lib/js/intervals.js';
+import MediaQueries from '{{PREFIX}}lib/js/mediaqueries.js';
+import Tracker from '{{PREFIX}}lib/js/tracker.js';
 
 const jUtils = {
-    KeyPress: KeyPress
+    types: Types,
+    keyPress: new KeyPress(),
+    intervals: new Intervals(),
+    mediaQ: new MediaQueries(),
+    tracker: new Tracker()
 };
-
-export default jUtils;

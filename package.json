@@ -1,20 +1,19 @@
 {
   "name": "jizy-utils",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "browser": "dist/js/jizy-utils.min.js",
   "main": "lib/index.js",
   "type": "module",
+  "jizy": "dist/",
   "files": [
-    "dist/js/jizy-utils.min.js",
-    "lib/js/keypress.js",
-    "lib/js/reveal.js",
-    "lib/index.js"
+    "dist/*",
+    "lib/*.js"
   ],
   "scripts": {
-    "jpack:export": "node ./cli/jpack.js -t perso",
-    "jpack:export-debug": "node ./cli/jpack.js -t perso --debug",
-    "jpack:dist": "node ./cli/jpack.js -t dist -n default",
-    "jpack:dist-debug": "node ./cli/jpack.js -t dist -n default --debug"
+    "jpack:export": "node ./cli/jpack.js --action build --name perso",
+    "jpack:export-debug": "node ./cli/jpack.js --action build --name perso --debug",
+    "jpack:dist": "node ./cli/jpack.js",
+    "jpack:dist-debug": "node ./cli/jpack.js --debug"
   },
   "repository": {
     "type": "git",
@@ -28,6 +27,6 @@
   "license": "MIT",
   "description": "A simple JS utility library.",
   "dependencies": {
-    "jizy-packer": "^2.0.0"
+    "jizy-packer": "^2.1.0"
   }
 }

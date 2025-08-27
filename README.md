@@ -8,7 +8,7 @@ A simple utilities library for JavaScript applications.
 
 Simple way to handle keypress events.
 
-```javascript
+```js
 import { KeyPress } from 'jizy-utils';
 
 if (KeyPress.on('Enter', event)) {

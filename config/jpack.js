@@ -1,20 +1,20 @@
-const jPackData = {
-    name: 'jUtils',
-    alias: 'jizy-utils',
-    cfg: 'utils',
-    assetsPath: 'dist',
+import { jPackConfig } from 'jizy-packer';
 
-    buildTarget: null,
-    buildZip: false,
-    buildName: 'default',
+const jPackData = function () {
+    jPackConfig.sets({
+        name: 'jUtils',
+        alias: 'jizy-utils',
+    });
 
-    onCheckConfig: () => { },
+    jPackConfig.set('onCheckConfig', () => { });
 
-    onGenerateBuildJs: (code) => code,
+    jPackConfig.set('onGenerateBuildJs', (code) => {
+        return code;
+    });
 
-    onGenerateWrappedJs: (wrapped) => wrapped,
+    jPackConfig.set('onGenerateWrappedJs', (wrapped) => wrapped);
 
-    onPacked: () => { }
+    jPackConfig.set('onPacked', () => { });
 };
 
 export default jPackData;
