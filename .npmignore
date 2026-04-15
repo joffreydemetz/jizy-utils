@@ -1,7 +1,3 @@
-cli/
 node_modules/
-src/
-vendor/
-composer.json
-composer.lock
+test/
 package-lock.json

@@ -7,13 +7,8 @@ const jPackData = function () {
     });
 
     jPackConfig.set('onCheckConfig', () => { });
-
-    jPackConfig.set('onGenerateBuildJs', (code) => {
-        return code;
-    });
-
+    jPackConfig.set('onGenerateBuildJs', (code) => code);
     jPackConfig.set('onGenerateWrappedJs', (wrapped) => wrapped);
-
     jPackConfig.set('onPacked', () => { });
 };
 
