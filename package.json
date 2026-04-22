@@ -12,7 +12,7 @@
   "author": "Joffrey Demetz <joffrey.demetz@gmail.com> (https://joffreydemetz.com/)",
   "license": "MIT",
   "description": "A simple JS utility library.",
-  "homepage": "https://jizy.joffreydemetz.com/jizy-utils",
+  "homepage": "https://jizy.joffreydemetz.com/utils",
   "files": [
     "dist/*",
     "lib/*"
