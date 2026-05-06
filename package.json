@@ -18,7 +18,8 @@
     "lib/*"
   ],
   "scripts": {
-    "jpack:dist": "node ./cli/jpack.js"
+    "jpack:dist": "node ./cli/jpack.js",
+    "test": "node --test \"test/*.test.js\""
   },
   "repository": {
     "type": "git",
