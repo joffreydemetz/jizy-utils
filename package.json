@@ -1,6 +1,6 @@
 {
   "name": "jizy-utils",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "main": "lib/index.js",
   "type": "module",
   "keywords": [
@@ -12,7 +12,8 @@
   "description": "A simple JS utility library.",
   "homepage": "https://jizy.joffreydemetz.com/utils",
   "files": [
-    "lib/*"
+    "lib/index.js",
+    "lib/js/*.js"
   ],
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
