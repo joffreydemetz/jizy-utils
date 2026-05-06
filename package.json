@@ -18,14 +18,22 @@
     "lib/*"
   ],
   "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "jpack:dist": "node ./cli/jpack.js",
-    "test": "node --test \"test/*.test.js\""
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "<rootDir>/tests/**/*.test.js"
+    ],
+    "transform": {}
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joffreydemetz/jizy-utils.git"
   },
   "devDependencies": {
+    "jest": "^29.7.0",
     "jizy-packer": "^2.1.44"
   }
 }
