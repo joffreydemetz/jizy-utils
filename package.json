@@ -3,14 +3,14 @@
   "version": "2.2.1",
   "main": "lib/index.js",
   "type": "module",
-  "keywords": [
-    "jizy",
-    "utilities"
-  ],
   "author": "Joffrey Demetz <joffrey.demetz@gmail.com> (https://joffreydemetz.com/)",
   "license": "MIT",
   "description": "A simple JS utility library.",
   "homepage": "https://jizy.joffreydemetz.com/utils",
+  "keywords": [
+    "jizy",
+    "utilities"
+  ],
   "files": [
     "lib/index.js",
     "lib/js/*.js"
